@@ -58,5 +58,16 @@ The following libraries are required to run the code in this repository:
   - `ggplot2`
 
 Install these packages in R using the command `install.packages(c("tidyverse", "caret", "randomForest", "e1071", "ggplot2"))`.
+## EDA 
+The dataset comprises 7,043 customers from a telecom company, providing a rich set of characteristics including demographic information, services subscribed to, account details, and churn status. A preliminary exploration reveals several noteworthy observations:
+
+1) Demographics and Account Information: The customer base shows a near-even split between genders and a relatively small proportion of senior citizens (16.21%). Interestingly, there is almost an equal distribution of customers with and without partners, but a larger number do not have dependents (70.04% without dependents).
+
+2) Service Subscription: A significant majority (90.31%) have phone services, yet the dataset indicates a diverse range of service subscriptions such as multiple lines, internet services, online security, backup, device protection, tech support, streaming TV, and movies. This diversity suggests varied customer preferences and needs regarding the telecom services offered.
+
+3) Tenure, Charges, and Churn: Tenure among customers ranges from new subscribers (0 months) to long-term customers (up to 72 months), with a median tenure of 29 months. This variability indicates a mix of customer loyalty and potential market penetration opportunities. Monthly charges span from $18.25 to $118.75, reflecting the wide range of service plans customers subscribe to. Despite the breadth of services and tenure, the company faces a churn rate of 26.54%, highlighting the importance of targeted customer retention strategies.
+
+4) Billing and Payments: Over half of the customers (59.22%) have adopted paperless billing, suggesting a notable trend towards digital service management. The variety in payment methods further characterizes the customer base, pointing to differing preferences in managing financial transactions with the telecom provider.
+   <img width="915" alt="image" src="https://github.com/Omezzine-amir/Telco-customer-Churn/assets/165148422/455dde0c-8ce5-47db-90ca-6dc7a3d8c22c">
 
 
