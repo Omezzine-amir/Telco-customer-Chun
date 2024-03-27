@@ -68,6 +68,20 @@ The dataset comprises 7,043 customers from a telecom company, providing a rich s
 3) Tenure, Charges, and Churn: Tenure among customers ranges from new subscribers (0 months) to long-term customers (up to 72 months), with a median tenure of 29 months. This variability indicates a mix of customer loyalty and potential market penetration opportunities. Monthly charges span from $18.25 to $118.75, reflecting the wide range of service plans customers subscribe to. Despite the breadth of services and tenure, the company faces a churn rate of 26.54%, highlighting the importance of targeted customer retention strategies.
 
 4) Billing and Payments: Over half of the customers (59.22%) have adopted paperless billing, suggesting a notable trend towards digital service management. The variety in payment methods further characterizes the customer base, pointing to differing preferences in managing financial transactions with the telecom provider.
-   <img width="915" alt="image" src="https://github.com/Omezzine-amir/Telco-customer-Churn/assets/165148422/455dde0c-8ce5-47db-90ca-6dc7a3d8c22c">
 
+   
+   <img width="915" alt="image" src="https://github.com/Omezzine-amir/Telco-customer-Churn/assets/165148422/455dde0c-8ce5-47db-90ca-6dc7a3d8c22c">
+==> The visualization presents a jitter plot that illustrates the distribution of customer tenure across different contract types, with a separate plot for each category of Senior Citizen status (0 or 1), and points colored to represent churn status (Yes or No).
+
+From the plot, we can deduce:
+
+Tenure Distribution: There is a wide range of tenure lengths across all contract types. Month-to-month contracts appear to have a broader distribution of tenure, indicating a mix of new and long-term customers. In contrast, one-year and two-year contracts seem to attract customers who stay for longer periods, as indicated by the clustering of points toward the higher end of the tenure axis.
+
+Churn by Contract Type: Churn (marked in red) is visibly more prevalent in month-to-month contracts, particularly among non-senior citizens. This suggests that customers with shorter, more flexible contracts are more likely to churn than those with longer commitments.
+
+Impact of Senior Citizen Status: The top and bottom rows differentiate between non-senior citizens (0) and senior citizens (1). For both groups, month-to-month contracts show higher churn, but the effect is more pronounced for non-senior citizens. One-year and two-year contracts have lower churn rates, which holds true for both seniors and non-seniors.
+
+Senior Citizens: Senior citizens (1) have a visibly smaller sample size compared to non-senior citizens (0), as seen by the fewer points in the plots for senior citizens. The distribution of tenure for senior citizens appears more uniform across contract types when compared to non-senior citizens.
+
+Churn Color Representation: The red points, indicating churn, are interspersed throughout, but they are most noticeable in the month-to-month contract facet for non-senior citizens, suggesting that churn is a significant issue in this segment.
 
