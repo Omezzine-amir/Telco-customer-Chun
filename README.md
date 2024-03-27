@@ -87,6 +87,8 @@ Tenure Distribution: There is a wide range of tenure lengths across all contract
 - 
 
 <img width="718" alt="image" src="https://github.com/Omezzine-amir/Telco-customer-Churn/assets/165148422/77383c9f-9560-4e45-ade6-18cd29e46fa8"> <img width="673" alt="image" src="https://github.com/Omezzine-amir/Telco-customer-Churn/assets/165148422/b2c47d88-c076-4679-9a8c-43ccd69ed17a">
+- Approximately 45% of customers who discontinued their services were subscribed to phone services. Conversely, an equal proportion of those who terminated their contracts lacked any phone service, which might indicate these individuals were on a month-to-month contract basis.
 
+In addition, over two-thirds (69%) of the customers who left the service had chosen fiber optic as their internet service option. This high percentage suggests that there might be issues with the fiber optic service quality, pinpointing a potential opportunity for service enhancement to reduce churn.
 
 
