@@ -1,2 +1,3 @@
 # Telco_customer_Churn_Prediction
-"Predict behavior to retain customers. You can analyze all relevant customer data and develop focused customer retention programs."
+""Machine Learning models for predicting customer churn using telecom data."
+
