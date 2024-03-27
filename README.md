@@ -84,4 +84,6 @@ Tenure Distribution: There is a wide range of tenure lengths across all contract
 - Senior Citizens: Senior citizens (1) have a visibly smaller sample size compared to non-senior citizens (0), as seen by the fewer points in the plots for senior citizens. The distribution of tenure for senior citizens appears more uniform across contract types when compared to non-senior citizens.
 
 - Churn Color Representation: The red points, indicating churn, are interspersed throughout, but they are most noticeable in the month-to-month contract facet for non-senior citizens, suggesting that churn is a significant issue in this segment.
+- 
+![Chart 2](https://github.com/Omezzine-amir/Telco-customer-Churn/assets/165148422/afe0206f-20ae-4d27-a37f-780e2505835f)
 
