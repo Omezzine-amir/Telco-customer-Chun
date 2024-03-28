@@ -91,4 +91,14 @@ Tenure Distribution: There is a wide range of tenure lengths across all contract
 
 - In addition, over two-thirds (69%) of the customers who left the service had chosen fiber optic as their internet service option. This high percentage suggests that there might be issues with the fiber optic service quality, pinpointing a potential opportunity for service enhancement to reduce churn.
 
+## Modeling
+1) Linear Regression ( IV: Monthly charges / DV: Tenure/Churn/Dependents/Partner/Contract Moderator: Gender)
+   Results: The linear regression analysis reveals distinct outcomes based on gender, with the dataset comprising 3,488 female and 3,555 male observations. For females, the model explains approximately 22.8% of the variance in the dependent variable (R Squared = 0.228), which slightly adjusts to 22.7% when accounting for the number of predictors (Adj R Squared = 0.226). The Root Mean Square Error (RMSE) stands at 26.41, indicating the average deviation of the observed values from the predicted values. The model is statistically significant, as evidenced by a very low p-value (< 0.001), suggesting a strong association between gender and the dependent variable. The Maximum Variance Inflation Factor (Max VIF) of 2.03 suggests no serious multicollinearity concerns. For males, the model shows a slightly higher explanatory power with an R Squared of 23.8% and an adjusted R Squared of 23.7%. The RMSE is marginally lower at 26.29, and the model remains statistically significant with a p-value < 0.001. The Max VIF for males is 2.04, also indicating minimal multicollinearity. Overall, the analysis suggests that gender has a statistically significant effect on the dependent variable, with the model fitting slightly better for males than females, though differences are marginal.
+   ![Analytics 2_Importance](https://github.com/Omezzine-amir/Telco-customer-Churn/assets/165148422/b0a4b56a-8e9c-4db1-8d28-254febf9b332)
+   ![Analytics 2_Degree of Impact](https://github.com/Omezzine-amir/Telco-customer-Churn/assets/165148422/3e5f013e-4cc0-476c-a12a-c16bc9e085b5)
+
+
+   
+   
+   
 
